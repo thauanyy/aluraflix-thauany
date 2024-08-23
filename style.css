@@ -17,8 +17,16 @@ body{
 
 .principal{
  background-image: url(Background\ \(1\).png);
+ background-repeat: no-repeat;
+ background-size: contain;
 }
 
-.container
- height: 100vh;
+.container{
+    height : 100vh;
+}
+ 
+.container_botão{ 
+background-color: var(--botao-azul);
+color: var(--branco-principal);
+border-radius: 5px;
 }
