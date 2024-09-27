@@ -61,5 +61,20 @@ margin: 1em 0 2em 0;
 
 .container_caixa{
 margin: 0 6em 0 6em;
+}
 
+.secundario_imagem{
+ width: 80%;
+}
+
+.secundario{
+ align-items: center;
+ margin: 0  10em;
+}
+
+.descricao_titulo{
+ font-size: 48px;
+ font-weight: 700;
+ color: var(--branco-principal);
+ margin-bottom: 0.1em;
 }
