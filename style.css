@@ -4,6 +4,7 @@
     --botao-azul: #165bf7;
     --cor-de-fundo: #00030c;
     --fonte-principal: "Inter";
+    --botao-azul-efeito:#084661;
 }
 
 *{
@@ -128,4 +129,17 @@ body{
  margin: 1em 0;
  color: var(--cinza-secundario);
  font-size: 14px;
+}
+
+.lista_link a:hover{
+color: rgb(0, 140, 255);
+}
+
+.lista_link a:active{
+    color: rgb(0, 255, 247);
+}
+
+.container_botão:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
